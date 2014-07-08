@@ -1,0 +1,121 @@
+/**
+ * @package Bullet FAQs
+ */
+/*
+Plugin Name: Bullet FAQs
+Plugin URI: http://bappi-d-great.com
+Description: Provides nice Frequently Asked Questions Page with answers hidden untill the question is clicked then the desired answer fades smoothly into view, like accordion. User will have options to add categories, and questions based on those categories. Users can show question from a single category using shortcode. They will have control to change theme (among 9 themes), animation speed and custom CSS.
+Version: 1.0
+Author: Bappi D Great
+Author URI: http://bappi-d-great.com
+License: GPLv2 or later
+*/
+
+
+.accod_parent{
+    margin-bottom: 10px;
+}
+
+.accod_parent a{
+    text-decoration: none;
+    display: block;
+}
+
+.accod_parent h3.accordion_title{
+    cursor: pointer;
+    background-image: url(../images/q-icon.png);
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 30px;
+    margin: 0 0 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.smartItemsDetails{
+    background: url(../images/a-icon.png) 5px 5px no-repeat;
+    padding:0 0 10px 35px;
+    display: none;
+}
+
+.theme-1{
+    background-color: #F6CECE;
+}
+
+.theme-2{
+    background-color: #21610B;
+    color: #fff !important;
+}
+
+.theme-3{
+    background-color: #088A85;
+    color: #fff !important;
+}
+
+.theme-4{
+    background-color: #FFFFFF;
+    border: 1px solid #999;
+}
+
+.theme-5{
+    background-color: #AEB404;
+    color: #fff !important;
+}
+
+.theme-6{
+    background-color: #B404AE;
+    color: #fff !important;
+}
+
+.theme-7{
+    background-color: #2E2EFE;
+    color: #fff !important;
+}
+
+.theme-8{
+    background-color: #B40404;
+    color: #fff !important;
+}
+
+.theme-9{
+    background-color: #01DFA5;
+}
+
+.accod_parent ul.faq-labels{
+    list-style-type: none;
+    margin: 0 0 15px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.accod_parent ul.faq-labels li{
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.accod_parent ul.faq-labels li a{
+    padding: 3px 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.accod_parent .faq-cat-title{
+    position: relative;
+    margin: 20px 0 5px;
+}
+
+.faq-cat-title a{
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 10px;
+}
+
+.accod_parent a{
+    display: inline;
+}
